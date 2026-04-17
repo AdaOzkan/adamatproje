@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roulette Simulator</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      background: #111;
+      color: white;
+    }
+
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 10px;
+    }
+
+    #output {
+      margin-top: 20px;
+      white-space: pre-line;
+      text-align: left;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+<h1>🎰 Roulette Simulator</h1>
+
+<input type="number" id="spinCount" placeholder="Spin sayısı gir">
+<button onclick="start()">Başlat</button>
+
+<div id="output"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
